@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  color: #222;
+  background: #f7f5f0;
+}
+
+header {
+  text-align: center;
+  background: url('img/bakery.jpg') no-repeat top center;
+  background-size; cover;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+.profile-image {
+  margin-top:-45px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  border:3px solid black;
+}
+
+.nametag {
+  background-color: #efefef;
+  color: black;
+  padding:10px;
+  border radius:20px;
+  display: table;
+  margin: 10px auto;
+  font-size: 75px;
+}
+
+.card {
+  margin:20px auto;
+  padding: 20px 40px;
+  max-width: 500px;
+  background:white;
+  border-bottom:4px solid brown;
+  border-radius: 6px;
+}
+
+.card-header {
+  text-align: center;
+}
