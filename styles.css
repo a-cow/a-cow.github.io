@@ -48,3 +48,17 @@ header {
 .card-header {
   text-align: center;
 }
+
+.slideshow-container {
+  width:400px;
+  margin: 0 auto;
+}
+
+.slide {
+  position: absolute;
+  transition: opacity .5s ease-in;
+}
+
+img + img {
+  opacity: 0;
+}
